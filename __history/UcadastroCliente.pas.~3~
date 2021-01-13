@@ -21,19 +21,15 @@ type
     edtRg: TEdit;
     edtCpf: TEdit;
     GroupBox1: TGroupBox;
-    lblCep: TLabel;
-    lblBairro: TLabel;
-    lblNumero: TLabel;
-    edtRua: TEdit;
-    edtNumero: TEdit;
-    edtBairro: TEdit;
-    edtCep: TEdit;
-    btnBuscaCep: TButton;
-    lblRua: TLabel;
-    lblCidade: TLabel;
-    edtCidade: TEdit;
-    lblUf: TLabel;
-    edtUf: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Button1: TButton;
+    Label4: TLabel;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
     { Private declarations }

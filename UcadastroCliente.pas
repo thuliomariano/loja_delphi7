@@ -10,7 +10,7 @@ uses
 type
   TfrmCadastroCliente = class(TForm)
     Panel1: TPanel;
-    ADOConnection2: TADOConnection;
+    ADOConnection1: TADOConnection;
     grpCliente: TGroupBox;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
@@ -21,16 +21,22 @@ type
     edtRg: TEdit;
     edtCpf: TEdit;
     GroupBox1: TGroupBox;
-    Label1: TLabel;
-    Label2: TLabel;
-    Label3: TLabel;
-    Edit1: TEdit;
-    Edit2: TEdit;
-    Edit3: TEdit;
-    Edit4: TEdit;
-    Button1: TButton;
-    Label4: TLabel;
+    lblCep: TLabel;
+    lblBairro: TLabel;
+    lblNumero: TLabel;
+    edtRua: TEdit;
+    edtNumero: TEdit;
+    edtBairro: TEdit;
+    edtCep: TEdit;
+    btnBuscaCep: TButton;
+    lblRua: TLabel;
+    lblCidade: TLabel;
+    edtCidade: TEdit;
+    lblUf: TLabel;
+    edtUf: TEdit;
+    zQuery: TADOQuery;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure BitBtn1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -43,6 +49,51 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TfrmCadastroCliente.BitBtn1Click(Sender: TObject);
+begin
+
+  try
+
+    zQuery.SQL.Clear;
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+    zQuery.SQL.Add('');
+
+    zQuery.ExecSQL;
+
+  except on e:exception do
+    begin
+      raise Exception.Create('Erro, Falha ao realizar o cadastro.');
+    end;
+
+  end;
+
+end;
 
 procedure TfrmCadastroCliente.FormClose(Sender: TObject;
   var Action: TCloseAction);
