@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/12 10:36:47.000.722,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/12 10:42:51.000.730,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Usuario\Desktop\projetos dephi\Projeto loja 2021\uMenu.dfm</Transaction>
+    <Transaction>2021/01/12 10:42:51.000.730,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Usuario\Desktop\projetos dephi\Projeto loja 2021\uMenu.pas</Transaction>
+    <Transaction>2021/01/12 10:43:05.000.750,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Usuario\Desktop\projetos dephi\Projeto loja 2021\ProjectLoja.dproj</Transaction>
+    <Transaction>2021/01/12 10:45:10.000.799,=C:\Users\Usuario\Desktop\projetos dephi\Projeto loja 2021\Unit2.pas</Transaction>
+    <Transaction>2021/01/12 10:47:00.000.578,C:\Users\Usuario\Desktop\projetos dephi\Projeto loja 2021\Unit2.dfm=C:\Users\Usuario\Desktop\projetos dephi\Projeto loja 2021\UcadastroCliente.dfm</Transaction>
+    <Transaction>2021/01/12 10:47:00.000.578,C:\Users\Usuario\Desktop\projetos dephi\Projeto loja 2021\Unit2.pas=C:\Users\Usuario\Desktop\projetos dephi\Projeto loja 2021\UcadastroCliente.pas</Transaction>
+  </Transactions>
+</BorlandProject>
